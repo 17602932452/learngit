@@ -18,3 +18,11 @@ git diff head -- readme.txt
 git checkout -- 文件名
 9、撤回暂存区的内容到工作区
 git reset head 文件名
+10、删除文件
+git rm 文件名
+
+远程仓库
+1、注册github
+2、生成ssh的公钥、私钥
+ssh-keygen -t rsa -C "你的邮箱"
+3、在github添加你的ssh
