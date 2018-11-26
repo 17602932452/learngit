@@ -1,4 +1,4 @@
-1、初始化git仓库
+﻿1、初始化git仓库
 新建空文件夹，然后cd进入，之后git init ；git仓库初始化
 文件夹中就会生成一个。git目录，该目录用于文件备份，被手动改。
 2、提交文件到git仓库
@@ -37,3 +37,5 @@ $ git push -u origin master
 
  怎么样从远端仓库克隆一份
  git clone 远端仓库地址
+ 从远端获取最新
+git pull
