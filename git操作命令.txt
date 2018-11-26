@@ -14,3 +14,7 @@ git reflog
 git status;
 7、查看某个文件 工作区与版本库的区别
 git diff head -- readme.txt
+8、撤销文件工作区的修改（还没添加到暂存区）
+git checkout -- 文件名
+9、撤回暂存区的内容到工作区
+git reset head 文件名
