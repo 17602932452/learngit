@@ -33,3 +33,7 @@ $ git remote add origin https://github.com/17602932452/learngit.git
 3、第一次推送当前分支到仓库
 $ git push -u origin master
 4、推送更新到仓库
+ git push origin master
+
+ 怎么样从远端仓库克隆一份
+ git clone 远端仓库地址
