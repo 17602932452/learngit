@@ -1,0 +1,12 @@
+1、初始化git仓库
+新建空文件夹，然后cd进入，之后git init ；git仓库初始化
+文件夹中就会生成一个。git目录，该目录用于文件备份，被手动改。
+2、提交文件到git仓库
+git add 文件名 ；告诉git仓库，要提交
+git commit -m "提交说明" ；提交操作
+3、打印提交记录
+git log；最新到最旧
+4、版本回退
+git reset --hard 版本号
+5、查看历史命令
+git reflog
