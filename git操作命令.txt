@@ -39,3 +39,16 @@ $ git push -u origin master
  git clone 远端仓库地址
  从远端获取最新
 git pull
+如果本地不是最新的，直接push会失败，需要先从远端拉去最新版本，与本地版本合并，然后才能push。
+如果出现合并冲突，需要先解决冲突，才能push
+
+新增功能以及bug修复，一般会在分支上进行，操作完成，在合并到主分支上，删除分支。
+1、新建分支并切换到分支
+git checkout -b 分支名称
+2、查看分支：git branch
+3、创建分支 git branch <name>
+4、切换分支 git checkout <name>
+5、合并某分支到当前分支：git merge <name>;
+6、删除分支：git branch -d <name>
+
+如何合并分支，出现冲突，需要先解决冲突，在合并
