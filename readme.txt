@@ -10,5 +10,5 @@ git 跟踪文件的修改
 My stupid boss still prefers SVN.
 My stupid boss still prefers SVN.
 加括号
-这是dev的修改
-ad 
+
+ad
