@@ -25,4 +25,11 @@ git rm 文件名
 1、注册github
 2、生成ssh的公钥、私钥
 ssh-keygen -t rsa -C "你的邮箱"
-3、在github添加你的ssh
+3、在github的settings页面添加你的ssh。
+先有本地仓库，怎么与远端仓库冠梁，推送到远端仓库
+1、在github上新建一个仓库。
+2、与远端仓库关联
+$ git remote add origin https://github.com/17602932452/learngit.git
+3、第一次推送当前分支到仓库
+$ git push -u origin master
+4、推送更新到仓库
