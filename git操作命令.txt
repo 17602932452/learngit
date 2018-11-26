@@ -10,3 +10,7 @@ git log；最新到最旧
 git reset --hard 版本号
 5、查看历史命令
 git reflog
+6、查看仓库状态
+git status;
+7、查看某个文件 工作区与版本库的区别
+git diff head -- readme.txt
