@@ -1,4 +1,4 @@
-Git is a version control system.
+﻿Git is a version control system.
 Git is free software.
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
@@ -10,3 +10,4 @@ git 跟踪文件的修改
 My stupid boss still prefers SVN.
 My stupid boss still prefers SVN.
 加括号 
+这是dev的修改
